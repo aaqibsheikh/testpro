@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* purgecss end ignore */
+
+@import 'tailwindcss/utilities';
+@variants hover {
+    .baits-ripple {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
